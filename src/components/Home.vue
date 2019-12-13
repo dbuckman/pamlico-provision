@@ -81,6 +81,7 @@
       <v-parallax src="http://pics4.city-data.com/cpicc/cfiles27055.jpg" height="400">
         <v-row
           justify="center"
+          align="center"
         >
           <v-col class="text-center" cols="12">
             <h1 class="display-1 font-weight-thin mb-4">ROOTS IN THE PAMLICO</h1>
@@ -103,6 +104,7 @@
       <v-parallax src="https://images.pexels.com/photos/2916819/pexels-photo-2916819.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" height="400">
         <v-row
           justify="center"
+          align="center"
         >
           <v-col class="text-center" cols="12">
             <h1 class="display-1 font-weight-thin mb-4">BUILT FOR ADVENTURE</h1>

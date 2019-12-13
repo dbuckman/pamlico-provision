@@ -2,21 +2,17 @@
 <div id="app">
   <v-app id="inspire">
     <v-content class="pa-0">
-      <HelloWorld/>
+      <router-view></router-view>
     </v-content>
   </v-app>
 </div>
 </template>
 <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?14642257&data_platform=code&data_date=2019-12-13" charset="utf-8"></script>
 <script>
-import HelloWorld from './components/HelloWorld';
+import router from '@/router';
 
 export default {
   name: 'App',
-
-  components: {
-    HelloWorld,
-  },
 
   data: () => ({
     //
