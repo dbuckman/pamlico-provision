@@ -13,7 +13,9 @@ import router from '@/router';
 
 export default {
   name: 'App',
-
+  title () {
+    return 'Pamlico Provision'
+  },
   data: () => ({
     //
   }),

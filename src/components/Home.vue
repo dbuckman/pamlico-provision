@@ -5,7 +5,7 @@
         <v-row
         >
           <v-toolbar class="transparent" flat dark>
-            <v-toolbar-title>Pamlico Provision</v-toolbar-title>
+            <v-toolbar-title><v-btn flat to="/" text>Pamlico Provision</v-btn></v-toolbar-title>
         
             <v-spacer></v-spacer>
         
