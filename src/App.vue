@@ -1,28 +1,31 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template> 
+<div id="app">
+  <v-app id="inspire">
+    <v-content class="pa-0">
+      <HelloWorld/>
+    </v-content>
+  </v-app>
+</div>
 </template>
-
+<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?14642257&data_platform=code&data_date=2019-12-13" charset="utf-8"></script>
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld';
 
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
-</script>
+  name: 'App',
 
+  components: {
+    HelloWorld,
+  },
+
+  data: () => ({
+    //
+  }),
+};
+</script>
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
+logo {
+  font-family: 'Handlee', cursive;
 }
 </style>
