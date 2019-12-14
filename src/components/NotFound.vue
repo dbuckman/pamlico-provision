@@ -15,7 +15,6 @@
               </v-btn>
             </v-toolbar-items>
           </v-toolbar>
-        </v-row>
         
         <v-row
           justify="center"
