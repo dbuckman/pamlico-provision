@@ -1,37 +1,7 @@
 <template>
-  <div>
-    <div>
-      <v-parallax src="http://www.hsc.edu/images/News/2018/Kayak.jpg" height="300">
-        <v-row
-        >
-          <v-toolbar class="transparent" flat dark>
-            <v-toolbar-title><v-btn flat to="/" text>Pamlico Provision</v-btn></v-toolbar-title>
-        
-            <v-spacer></v-spacer>
-        
-            <v-toolbar-items>
-              <v-btn text href="http://localhost:8080#!/Bags/c/41583657/offset=0">Shop</v-btn>
-              <v-btn text>Blog</v-btn>
-              <v-btn text>Our Story</v-btn>
-              <v-btn icon>
-                <div class="ec-cart-widget"></div>
-              </v-btn>
-            </v-toolbar-items>
-          </v-toolbar>
-        </v-row>
-        
-        <v-row
-          justify="center"
-        >
-          <v-col class="text-center" cols="12">
-            <h1 class="display-1 font-weight-thin mb-4">ADVENTURE IS CALLING</h1>
-            <h4 class="subheading">We have the gear to help</h4>
-          </v-col>  
-        </v-row>
-      </v-parallax>
-    </div>
+        <v-row>
+          <v-col>
 
-    <div>
       <v-container fluid>
         <v-row justify="center">
           <v-col cols="3" align="center">
@@ -75,22 +45,22 @@
           </v-col>
         </v-row>
       </v-container>
-    </div>
+
     
-    <div>
+
       <v-parallax src="http://pics4.city-data.com/cpicc/cfiles27055.jpg" height="400">
         <v-row
           justify="center"
           align="center"
         >
           <v-col class="text-center" cols="12">
-            <h1 class="display-1 font-weight-thin mb-4">ROOTS IN THE PAMLICO</h1>
+            <h1 class="display-1 font-weight-thin mb-4">Made in North Carolina</h1>
           </v-col>  
         </v-row>
       </v-parallax>
-    </div>
 
-    <div>
+
+
       <v-container fluid>
         <v-row justify="center">
           <v-col class="text-center" cols="12">
@@ -98,10 +68,10 @@
           </v-col>          
         </v-row>
       </v-container>
-    </div>
+
     
-    <div>
-      <v-parallax src="https://images.pexels.com/photos/2916819/pexels-photo-2916819.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" height="400">
+
+      <v-parallax src="https://images.pexels.com/photos/2916819/pexels-photo-2916819.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" height="500">
         <v-row
           justify="center"
           align="center"
@@ -111,9 +81,9 @@
           </v-col>  
         </v-row>
       </v-parallax>
-    </div>
+
     
-    <div>
+
       <v-container fluid>
         <v-row justify="center">
           <v-col class="text-center" cols="12">
@@ -121,13 +91,15 @@
           </v-col>          
         </v-row>
       </v-container>
-    </div>
-  </div>
+
+          </v-col>
+        </v-row>
 </template>
 
 
 <script>
 export default {
+
   mounted () {
     const sleep = (milliseconds) => {
       return new Promise(resolve => setTimeout(resolve, milliseconds))

@@ -7,9 +7,9 @@
             <v-spacer></v-spacer>
         
             <v-toolbar-items>
-              <v-btn text href="http://localhost:8080#!/Bags/c/41583657/offset=0">Shop</v-btn>
+              <v-btn text href="/shop#!/Bags/c/41583657/offset=0">Shop</v-btn>
               <v-btn text>Blog</v-btn>
-              <v-btn text>Our Story</v-btn>
+              <v-btn text to="/about">Our Story</v-btn>
               <v-btn icon>
                 <div class="ec-cart-widget"></div>
               </v-btn>
@@ -30,4 +30,4 @@
 <script>
 export default {}
 </script>
-https://images.pexels.com/photos/1051321/pexels-photo-1051321.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+
