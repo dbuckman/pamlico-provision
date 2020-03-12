@@ -76,30 +76,6 @@
 
 <script>
 export default {
-  data: () => ({
-    parallax1: require('@/assets/images/7058775_large_1557953883.jpg')
-  }),
-  mounted () {
-    const sleep = (milliseconds) => {
-      return new Promise(resolve => setTimeout(resolve, milliseconds))
-    }
-    let ecwidScript = document.createElement('script')
-      ecwidScript.setAttribute('src', 'https://app.ecwid.com/script.js?14642257&data_platform=code&data_date=2019-12-13')
-      document.head.appendChild(ecwidScript)
-    sleep(500).then(() => {
-      this.loadCart()
-    })
-  },
-  methods: {
-    loadCart () {
-      window.Ecwid.init()
-    },
-    loadSearch () {
-      window.xSearch("id=my-search-14642257")
-    },
-    loadCatalog () {
-      window.xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-14642257")
-    }
-  }
+
 }
 </script>
