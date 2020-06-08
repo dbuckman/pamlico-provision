@@ -38,7 +38,7 @@
 
       <v-row>
         <v-col>
-        Footer
+
         </v-col>
       </v-row>
     </v-content>
